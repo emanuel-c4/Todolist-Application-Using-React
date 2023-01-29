@@ -10,3 +10,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2016/11/22/20/04/abstract-1850424_960_720.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul li:hover {
+    background-color: ghostwhite;
+}
+
+li .fas.fa-trash-alt {
+    padding: 0.25em;
+}
+
+li .fas.fa-trash-alt:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+li .fas.fa-trash-alt:active {
+    background-color: darkred;
+    color: azure;
+}
